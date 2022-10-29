@@ -1,10 +1,5 @@
 (ns best-travel)
 
-;; (defn choose-best-sum [t k ls])
-;;
-;; (comment
-;;   ((choose-best-sum 163, 3, [50, 55, 56, 57, 58])))
-
 (defn combinations [k ls]
   (cond
     (= k 0)     [[]]
@@ -12,6 +7,17 @@
     :else (concat (map #(conj % (first ls))
                        (combinations (dec k) (rest ls)))
                   (combinations k (rest ls)))))
+
+(defn choose-best-sum [t k ls]
+  (let [take-max #(if (empty? %) nil (apply max %))]
+    (->> (combinations k ls)
+         (map #(apply + %))
+         (filter #(<= % t))
+         (take-max))))
+
+(comment
+  (choose-best-sum 163, 3, [50, 55, 56, 57, 58])
+  (choose-best-sum 163, 3, [50]))
 
 ;; How to get all combinations:
 ;;
@@ -25,4 +31,5 @@
 (comment
   (concat (map #(conj [55] %) [56 57 58])
           (concat (map #(conj [56] %) [57 58]) [[57 58]]))
-  (combinations 3 [50 55 56 57 58]))
+  (combinations 3 [50 55 56 57 58])
+  (combinations 4 [55 57 68]))
