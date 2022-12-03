@@ -1,14 +1,14 @@
 (ns day-1-calorie-counting
   (:require [clojure.string :as str]))
 
+(def raw-data
+  (slurp "data/day_1.txt"))
+
 (defn sum-each-item [dd]
   (for [item dd]
     (->> (str/split item #"\n")
          (map read-string)
          (apply +))))
-
-(def raw-data
-  (slurp "data/day_1.txt"))
 
 (def total-calories-list
   (-> raw-data
