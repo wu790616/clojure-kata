@@ -9,6 +9,8 @@ Record my solutions with clojure in coding practice websites
 |[Sum consecutives](https://www.codewars.com/kata/55eeddff3f64c954c2000059/clojure)|[Clojure](https://github.com/wu790616/clojure-kata/blob/master/codewar/src/sum_consecutives.clj)|6kyu|2022-10-11|
 |[Two Sum](https://www.codewars.com/kata/52c31f8e6605bcc646000082/clojure)|[Clojure](https://github.com/wu790616/clojure-kata/blob/master/codewar/src/two_sum.clj)|6kyu|2022-10-12|
 |[Split Strings](https://www.codewars.com/kata/515de9ae9dcfc28eb6000001/clojure)|[Clojure](https://github.com/wu790616/clojure-kata/blob/master/codewar/src/split_strings.clj)|6kyu|2022-10-18|
+|[Is n divisible by x and y?](https://www.codewars.com/kata/5545f109004975ea66000086/clojure)|[Clojure](https://github.com/wu790616/clojure-kata/blob/master/codewar/src/is_n_divisible_by_x_and_y.clj)|8kyu|2023-07-27|
+|[Fake Binary](https://www.codewars.com/kata/57eae65a4321032ce000002d/clojure)|[Clojure](https://github.com/wu790616/clojure-kata/blob/master/codewar/src/fake_binary.clj)|8kyu|2023-08-01|
 ### [Exercism](https://exercism.org/dashboard)
 |Title|Solution|Concept|Level|Date|
 |-----|--------|-------|-----|----|
