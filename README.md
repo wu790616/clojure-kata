@@ -17,5 +17,6 @@ Record my solutions with clojure in coding practice websites
 |[Interest is Interesting](https://exercism.org/tracks/clojure/exercises/interest-is-interesting)|[Clojure](https://github.com/wu790616/clojure-kata/blob/master/exercism/src/interest_is_interesting.clj)|Floating-point Numbers||2023-05-21|
 |[Card Games](https://exercism.org/tracks/clojure/exercises/card-games)|[Clojure](https://github.com/wu790616/clojure-kata/blob/master/exercism/src/card_games.clj)|Lists||2023-10-18|
 |[Coordinate Transformation](https://exercism.org/tracks/clojure/exercises/coordinate-transformation)|[Clojure](https://github.com/wu790616/clojure-kata/blob/master/exercism/src/coordinate_transformation.clj)|Atoms, Closures||2024-05-15|
+|[Squeaky Clean](https://exercism.org/tracks/clojure/exercises/squeaky-clean)|[Clojure](https://github.com/wu790616/clojure-kata/blob/master/exercism/src/squeaky_clean.clj)|Chars||2024-11-17|
 ### [AOC](https://adventofcode.com/)
 - [Advent of Code 2022](https://adventofcode.com/2022): [Solutions](https://github.com/wu790616/clojure-kata/tree/master/aoc2022)
